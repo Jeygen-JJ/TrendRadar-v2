@@ -1,0 +1,56 @@
+# AI 博主专用关键词配置
+# 方向：Codex 协同办公自动化 + 少量高价值前沿突破
+# 更新时间：2026-06-17
+
+[GLOBAL_FILTER]
+
+# 过滤标题党和营销内容
+震惊
+速来
+必看
+稳赚
+割韭菜
+/课程|训练营|返利|优惠券|低价课|副业项目|资料包|私域|加群/i
+
+
+[WORD_GROUPS]
+
+[Codex 协同办公自动化]
+/Codex|OpenAI Codex|ChatGPT|Claude Code|Cursor|coding agent|AI agent|MCP|Model Context Protocol|Agent SDK/i
++/Obsidian|Office|Microsoft 365|Excel|PowerPoint|PPT|Word|Outlook|OneNote|Notion|飞书|Google Docs|Google Sheets|文档|表格|演示|邮件|会议纪要|知识库|笔记|素材库|workflow|automation|自动化|办公|效率/i
+@24
+
+[Obsidian 与知识管理]
+/Obsidian|markdown|Markdown|Dataview|Templater|Canvas|vault|PKM|personal knowledge management|知识管理|双链|笔记|选题库|素材库/i
++/AI|Codex|ChatGPT|Claude|agent|自动化|workflow|template|插件|plugin/i
+@20
+
+[Office 办公自动化]
+/Excel|PowerPoint|PPT|Word|Outlook|Microsoft 365|Office Scripts|VBA|Python in Excel|openpyxl|python-pptx|docx|Power Automate|Graph API/i
++/AI|Codex|ChatGPT|Claude|agent|自动化|workflow|办公|报表|数据分析|文档|演示|邮件/i
+@20
+
+[新手可上手教程]
+/教程|入门|指南|上手|如何|怎么|workflow|use case|案例|example|template|prompt|提示词|配置|安装|setup|quickstart|best practices|step-by-step/i
++/AI|Codex|ChatGPT|Claude|Cursor|Obsidian|Notion|Office|Excel|PPT|GitHub|效率/i
+@18
+
+[AI Agent 与个人工作流]
+/AI Agent|agentic|智能体|workflow automation|browser agent|desktop agent|coding agent|multi-agent|subagent|RPA|Playwright|browser automation|文件处理|批量处理/i
++/Codex|ChatGPT|Claude|MCP|Obsidian|Office|Excel|PowerPoint|Notion|自动化|效率/i
+@16
+
+[高热度前沿突破]
+/breakthrough|state-of-the-art|SOTA|frontier model|major release|new model|reasoning model|multimodal|agentic|open weights|API|pricing|benchmark|technical report|重大发布|突破|开源权重|能力跃迁|多模态|推理模型/i
++/OpenAI|Anthropic|Claude|Google|DeepMind|Gemini|Meta|Llama|Microsoft|DeepSeek|Qwen|通义|Kimi|MiniMax|xAI|Grok|Hugging Face/i
+@14
+
+[开源项目和插件生态]
+/open.?source|开源|GitHub|release|released|repo|repository|plugin|extension|CLI|SDK|MCP server|connector|integration/i
++/Codex|Obsidian|Office|Excel|PowerPoint|Word|ChatGPT|Claude|agent|automation|workflow|RAG|knowledge base/i
+@12
+
+[安全与合规避坑]
+/security|privacy|permission|audit|logging|compliance|sandbox|credential|token|prompt injection|data leakage|安全|隐私|权限|审计|日志|合规|泄露|凭证|沙箱/i
++/AI agent|Codex|ChatGPT|Claude|MCP|Office|Obsidian|workflow|automation/i
+@10
